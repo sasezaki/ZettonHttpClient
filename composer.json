@@ -1,0 +1,25 @@
+{
+    "name":"sasezaki/ZettonHttpClient",
+    "description":"",
+    "keywords":["zf2"],
+    "license":"BSD-3-Clause",
+    "authors":[
+        {
+            "name":"sasezaki",
+            "email":"sasezaki@gmail.com"
+        }
+    ],
+    "require":{
+        "php":">=5.3.3",
+        "zendframework/zend-http": "2.2.*",
+        "zendframework/zend-servicemanager": "2.2.*"
+    },
+    "require-dev":{
+        "zendframework/zend-mvc": "2.2.*"
+    },
+    "autoload": {
+        "psr-0":{
+            "Zetton\\Http\\Client":"src/"
+        }
+    }
+}
