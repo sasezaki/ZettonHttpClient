@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace ZendTest\Http\Client;
+namespace ZettonHttpClientTest;
 
 use Zend\ServiceManager\ServiceManager;
 use Zend\Mvc\Service\ServiceManagerConfig;
@@ -25,7 +25,7 @@ class ClientAbstractServiceFactoryTest extends \PHPUnit_Framework_TestCase
     protected function setUp()
     {
         $this->serviceManager = new ServiceManager(new ServiceManagerConfig(array(
-            'abstract_factories' => array('Zetton\Http\Client\ClientAbstractServiceFactory'),
+            'abstract_factories' => array('ZettonHttpClient\ClientAbstractServiceFactory'),
         )));
 
         $this->serviceManager->setService('Config', array(

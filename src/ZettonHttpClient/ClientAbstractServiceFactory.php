@@ -5,7 +5,7 @@
  * @license   http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace Zetton\Http\Client;
+namespace ZettonHttpClient;
 
 use Zend\ServiceManager\AbstractFactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;

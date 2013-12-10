@@ -14,4 +14,4 @@ if (! isset($loader)) {
     throw new RuntimeException('vendor/autoload.php could not be found. Did you install via composer?');
 }
 
-$loader->add('ZettonTest\\', __DIR__);
+$loader->add('ZettonHttpClientTest\\', __DIR__);
